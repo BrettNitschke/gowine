@@ -26,6 +26,7 @@ func (env *Env) winesRoute(w http.ResponseWriter, r *http.Request){
       fmt.Println("it is NOT a mobile device")
     }
   //THIS IS A TEST MESSAGE
+  //so is this
   m := gomail.NewMessage()
   m.SetHeader("From", "alex@example.com")
   m.SetHeader("To", "brett.r.nitschke@gmail.com")
